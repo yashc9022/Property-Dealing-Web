@@ -1,0 +1,109 @@
+.property-detail-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .property-detail-page h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .property-detail-page p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .property-images {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+  }
+  
+  .property-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .loading,
+  .not-found {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    color: #777;
+  }
+
+
+
+  .review-section {
+  margin-top: 2rem;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.review-form button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #0056b3;
+}
+
+.reviews-display {
+  margin-top: 1.5rem;
+}
+
+.review-box {
+  background: #f1f1f1;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 4px solid #007bff;
+}
+
+.review-box strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.review-box p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.review-box small {
+  color: #888;
+  font-size: 12px;
+}
